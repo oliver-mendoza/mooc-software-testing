@@ -1,9 +1,7 @@
 package tudelft.chocolate;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
 public class ChocolateBagsTest2 {
     @ParameterizedTest(name = "small={0}, big={1}, total={2}, result={3}")
     @CsvSource({
@@ -21,5 +19,4 @@ public class ChocolateBagsTest2 {
         int result = new ChocolateBags().calculate(small, big, total);
         Assertions.assertEquals(expectedResult, result);
     }
-
 }
