@@ -1,4 +1,4 @@
-package tudelft.countletters;
+package tudelft.christmas.countletters;
 
 public class CountLetters {
 

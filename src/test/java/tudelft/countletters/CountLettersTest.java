@@ -2,6 +2,7 @@ package tudelft.countletters;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import tudelft.christmas.countletters.CountLetters;
 
 public class CountLettersTest {
 
